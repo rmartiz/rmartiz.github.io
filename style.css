@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	border-box: 0;
+	font-family: 'Hammersmith One', sans-serif;
+  color: #665853;
+}
+.row {
+	display: flex;
+}
+.col {
+  background-color: #ebdbd5;
+  text-align: center;
+	flex: 1;
+  margin: 0 auto;
+	float: left;
+}
+h1 {
+	display: inline;
+  font-weight: 600;
+  font-size: 4.4em;
+}
+h2 {
+  padding: 70px 0 0 0;
+  font-weight: 100;
+  font-size: 2em;
+}
+h3 {
+}
+nav {
+  height: 30px;
+  display: block;
+}
+nav ul {
+  text-align: center;
+	padding: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin: auto 60px;
+  letter-spacing: 2px;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+nav ul li:last-child {
+  margin-right: 0;
+}
+nav ul li:first-child {
+  margin-left: 0;
+}
+nav ul li a{
+    color: #ceb5ae;
+    font-weight: 100;
+    text-decoration: none;
+    display: block;
+    transition: ease .7s;
+}
+/*----Universal End*----*/
+#logo {
+	display: inline-block;
+  height: 58px;
+  width: 161px;
+}
+#rodney {
+  height: 374px;
+  width: 461px;
+  display: block;
+  margin: auto;
+}
+/*----Hover----*/
+nav ul li a:hover{
+    color: #665853;
+  }
+nav ul li a:active{
+      color: white;
+  }
+/*----Animation----*/
+
+#light1, #light2{
+
+  animation: hideshow .15s ease infinite;
+}
+@-webkit-keyframes hideshow {
+  0% { opacity: .2; }
+  100% { opacity: .05; }
+}
+@-moz-keyframes hideshow {
+  0% { opacity: .2; }
+  100% { opacity: .05; }
+}
+@-o-keyframes hideshow {
+  0% { opacity: .2; }
+  100% { opacity: .05; }
+}
+@keyframes hideshow {
+  0% { opacity: .2; }
+  100% { opacity: .05; }
+}
+
+#shadow, #screen, #eyeglass {
+  animation: fade .15s ease infinite;
+}
+@-webkit-keyframes fade {
+  0% { opacity: 1; }
+  100% { opacity: .6; }
+}
+@-moz-keyframes fade {
+  0% { opacity: 1; }
+  100% { opacity: .6; }
+}
+@-o-keyframes fade {
+  0% { opacity: 1; }
+  100% { opacity: .6; }
+}
+@keyframes fade {
+  0% { opacity: 1; }
+  100% { opacity: .6; }
+}
+/*Work page*/
+#icons{
+	position: relative;
+
+	width: 96px;
+	height: 96px;
+	margin: 50px 30px 30px 30px;
+}
+#icons{
+	position: relative;
+	width: 96px;
+	height: 96px;
+	margin: 50px 30px 30px 30px;
+}
+/*---Media Query----*/
+@media screen and (max-width: 900px) {
+	.col{
+		overflow: visible;;
+	}
+	h1 {
+		font-weight: 300;
+		font-size: 3.4em;
+	}
+	h2 {
+		padding: 100px 0 0 0;
+		font-weight: 100;
+		font-size: 1em;
+	}
+	nav ul li {
+		display: inline-block;
+		margin: auto 30px;
+		letter-spacing: 2px;
+		font-size: 1.1em;
+		font-weight: 600;
+	}
+	#logo {
+		display:
+	}
+	#rodney {
+		height: 60%;
+		width: 70%;
+		display: block;
+		margin-top: 50px;
+	}
+}
