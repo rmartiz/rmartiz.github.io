@@ -7,13 +7,15 @@
 }
 .row {
 	display: flex;
+
 }
 .col {
   background-color: #FFFFFF;
   text-align: center;
 	flex: 1;
-  margin: 0 10%	;
+  margin: 0 5%	;
 	float: left;
+
 
 }
 h1 {
@@ -26,8 +28,6 @@ h2 {
   font-weight: 100;
   font-size: 2em;
 }
-h3 {
-}
 nav {
   height: 30px;
   display: block;
@@ -38,7 +38,7 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
-  margin: auto 60px;
+  margin: auto 10px;
   letter-spacing: 2px;
   font-size: 1.1em;
   font-weight: 600;
@@ -73,7 +73,7 @@ p{
 	font-family: arial;
 	font-style:: bold;
 	font-size: 11pt;
-	padding: 150px 0 0 0;
+	padding: 15	0px 0 0 0;
 }
 .rights{
 	text-align: center;
@@ -203,10 +203,9 @@ nav ul li a:active{
 /*---Media Query----*/
 @media screen and (max-width: 900px) {
 	.col{
-		overflow: visible;;
+		overflow: visible;
 	}
 	h1 {
-		font-weight: 300;
 		font-size: 3.4em;
 	}
 	h2 {
@@ -216,18 +215,29 @@ nav ul li a:active{
 	}
 	nav ul li {
 		display: inline-block;
-		margin: auto 30px;
+		margin: auto 10px;
 		letter-spacing: 2px;
-		font-size: 1.1em;
-		font-weight: 600;
-	}
-	#logo {
-		display:
+		font-size: .2em;
+
 	}
 	#rodney {
 		height: 60%;
 		width: 70%;
 		display: block;
-		margin-top: 50px;
+		margin-top: 20px;
+	}
+	.ctc{
+		text-align: center;
+		font-family: arial;
+		font-style:: bold;
+		font-size: 7pt;
+		padding: 15	0px 0 0 0;
+	}
+	.rights{
+		text-align: center;
+		font-family: arial;
+		font-weight: lighter;
+		font-size: 7pt;
+		padding: 10px 0 10px 0;
 	}
 }
