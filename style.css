@@ -218,7 +218,9 @@ nav ul li a:active{
 		margin: auto 10px;
 		letter-spacing: 2px;
 		font-size: .2em;
-
+	}
+	p {
+		font-size: 8px;
 	}
 	#rodney {
 		height: 60%;
