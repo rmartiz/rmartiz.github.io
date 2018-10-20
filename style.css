@@ -73,15 +73,14 @@ p{
 	font-family: arial;
 	font-style:: bold;
 	font-size: 11pt;
-	padding: 15	0px 0 0 0;
+	padding-top: 190px;
 }
 .rights{
-	text-align: center;
-	font-family: arial;
-	font-weight: lighter;
-	font-size: 11pt;
-	padding: 10px 0 10px 0;
-}
+text-align: center;
+font-family: arial;
+font-weight: lighter;
+font-size: 11pt;
+padding: 1px 0 10px 0;
 
 /*----Universal End*----*/
 #logo {
@@ -231,7 +230,7 @@ nav ul li a:active{
 		font-family: arial;
 		font-style:: bold;
 		font-size: 7pt;
-		padding: 15	0px 0 0 0;
+		padding: 15px	0 0 0 0;
 	}
 	.rights{
 		text-align: center;
