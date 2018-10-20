@@ -2,18 +2,19 @@
 	margin: 0;
 	box-sizing: border-box;
 	border-box: 0;
-	font-family: 'Hammersmith One', sans-serif;
+	font-family: 'Futura', sans-serif;
   color: #665853;
 }
 .row {
 	display: flex;
 }
 .col {
-  background-color: #ebdbd5;
+  background-color: #FFFFFF;
   text-align: center;
 	flex: 1;
-  margin: 0 auto;
+  margin: 0 10%	;
 	float: left;
+
 }
 h1 {
 	display: inline;
@@ -49,12 +50,39 @@ nav ul li:first-child {
   margin-left: 0;
 }
 nav ul li a{
-    color: #ceb5ae;
+    color: #a4a4a4;
     font-weight: 100;
     text-decoration: none;
     display: block;
     transition: ease .7s;
 }
+img {
+		width: 100%;
+		height: inherit;
+}
+p{
+		text-align: left;
+		font-family: arial;
+		font-weight: lighter;
+		font-style: italic;
+		font-size: 11pt;
+		padding: 40px 0 3px 0;
+}
+.ctc{
+	text-align: center;
+	font-family: arial;
+	font-style:: bold;
+	font-size: 11pt;
+	padding: 150px 0 0 0;
+}
+.rights{
+	text-align: center;
+	font-family: arial;
+	font-weight: lighter;
+	font-size: 11pt;
+	padding: 10px 0 10px 0;
+}
+
 /*----Universal End*----*/
 #logo {
 	display: inline-block;
@@ -78,27 +106,27 @@ nav ul li a:active{
 
 #light1, #light2{
 
-  animation: hideshow .15s ease infinite;
+  animation: hideshow .2s ease infinite;
 }
-@-webkit-keyframes hideshow {
-  0% { opacity: .2; }
-  100% { opacity: .05; }
+@-webkit-keyframes fade {
+  0% { opacity: .1; }
+  100% { opacity: .3; }
 }
-@-moz-keyframes hideshow {
-  0% { opacity: .2; }
-  100% { opacity: .05; }
+@-moz-keyframes fade {
+  0% { opacity: .1; }
+  100% { opacity: .3; }
 }
-@-o-keyframes hideshow {
-  0% { opacity: .2; }
-  100% { opacity: .05; }
+@-o-keyframes fade {
+  0% { opacity: .1; }
+  100% { opacity: .3; }
 }
-@keyframes hideshow {
-  0% { opacity: .2; }
-  100% { opacity: .05; }
+@keyframes fade {
+  0% { opacity: .1; }
+  100% { opacity: .3; }
 }
 
 #shadow, #screen, #eyeglass {
-  animation: fade .15s ease infinite;
+  animation: fade .2s ease infinite;
 }
 @-webkit-keyframes fade {
   0% { opacity: 1; }
@@ -116,7 +144,49 @@ nav ul li a:active{
   0% { opacity: 1; }
   100% { opacity: .6; }
 }
-/*Work page*/
+#h2 {
+
+  animation: hideshow 1s ease infinite;
+}
+@-webkit-keyframes hideshow {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-moz-keyframes hideshow {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-o-keyframes hideshow {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes hideshow {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+#gh1 {
+
+  animation: hideshow .5s ease infinite;
+}
+@-webkit-keyframes hideshow {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-moz-keyframes hideshow {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-o-keyframes hideshow {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes hideshow {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/*Work page
 #icons{
 	position: relative;
 
@@ -129,7 +199,7 @@ nav ul li a:active{
 	width: 96px;
 	height: 96px;
 	margin: 50px 30px 30px 30px;
-}
+}*/
 /*---Media Query----*/
 @media screen and (max-width: 900px) {
 	.col{

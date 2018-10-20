@@ -2,14 +2,16 @@
 	margin: 0;
 	border-box: 0;
 	box-sizing: borde-box;
-	font-family: Agency FB, sans-serif;
+	font-family: Futura;
+	font-size: 24px;
+	font-style: normal;
 	color: white;
 
 }
 header{
 	width:100%;
 	height: 549px;
-	background-color: #2c3436;
+	background-color: #FFFFFF;
 
 }
 #rodney{
@@ -18,10 +20,10 @@ header{
 	display:block;
 }
 /*---- END HEADER ----*/
-nav {	
+nav {
 	width: 100%;
 	height: 50px;
-	background-color: #141415;
+	background-color: #FFFFFF;
 }
 nav ul{
 	padding: 2px 0;
@@ -50,14 +52,14 @@ nav ul li a:hover {
 .about{
 	width: 100%;
 	height: 400px;
-	background-color: #2d4a45;
+	background-color: #FFFFFF;
 }
 .about-wrapper{
 	width: 70%;
 	margin: 0 auto;
 	display: block;
 }
-.about-intro{	
+.about-intro{
 	font-size: 4em;
 	padding: 80px 40px 20px 0;
 }
@@ -74,7 +76,7 @@ nav ul li a:hover {
 	height: 100%;
 	background-color: #2d4a45;
 }
-.work-intro{	
+.work-intro{
 	font-size: 3em;
 	padding: 80px 40px 20px 0;
 }
@@ -90,26 +92,3 @@ nav ul li a:hover {
 }
 /*----END WORK TAB ----*/
 /*----START CONTACT TAB ----*/
-.contact{
-	width: 100%;
-	height: 612px;
-	background-color: #204636;
-}
-.contact-wrapper{
-		width: 100%;
-	height: 612px;
-	margin: 0 auto;
-	color: #48916d;
-	display:block;
-	text-align: center;
-}
-.under-maintenance{
-	padding-top: 80px;
-	color: #48916d;
-}
-.maintenance{
-	margin: 0 auto;
-	padding-top: 80px;
-	display: block;
-}
-/*----END CONTACT TAB ----*/
