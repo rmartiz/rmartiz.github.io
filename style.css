@@ -207,7 +207,7 @@ nav ul li a:active{
 @media screen and (max-width: 900px) {
 	.col{
 		overflow: visible;
-	  margin: 0;
+	  margin: 10%;
 	}
 	h1 {
 		font-size: 3.4em;
@@ -246,4 +246,49 @@ nav ul li a:active{
 		font-size: 7pt;
 		padding: 10px 0 10px 0;
 	}
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.col{
+		overflow: visible;
+	  margin: 15%;
+	}
+	h1 {
+		font-size: 3.4em;
+	}
+	h2 {
+		padding: 100px 0 0 0;
+		font-weight: 100;
+		font-size: 1em;
+	}
+	nav ul li {
+		display: inline-block;
+		margin: auto 15px;
+		letter-spacing: 2px;
+		font-size: .3em;
+	}
+	p {
+		font-size: 8px;
+	}
+	#rodney {
+		height: 60%;
+		width: 70%;
+		display: block;
+		margin-top: 20px;
+	}
+	.ctc{
+		text-align: center;
+		font-family: arial;
+		font-style:: bold;
+		font-size: 7pt;
+		padding: 15	0px 0 0 0;
+	}
+	.rights{
+		text-align: center;
+		font-family: arial;
+		font-weight: lighter;
+		font-size: 7pt;
+		padding: 10px 0 10px 0;
+	}
+}
 }
