@@ -13,7 +13,7 @@
   background-color: #FFFFFF;
   text-align: center;
 	flex: 1;
-  margin: 0 10%	;
+  margin: 0 20%	;
 	float: left;
 
 }
@@ -30,7 +30,7 @@ nav ul {
 }
 nav ul li {
   display: inline-block;
-  margin: auto 40px;
+  margin: auto 10px;
   letter-spacing: 2px;
   font-size: 1.1em;
   font-weight: 600;
@@ -204,13 +204,16 @@ nav ul li a:active{
 	margin: 50px 30px 30px 30px;
 }*/
 /*---Media Query----*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 720px) {
+	header{
+		height: 10px;
+	}
 	.col{
 		overflow: visible;
-	  margin: 10%;
+	  margin: 5%;
 	}
 	h1 {
-		font-size: 3.4em;
+		font-size: 3em;
 	}
 	h2 {
 		padding: 100px 0 0 0;
@@ -219,56 +222,12 @@ nav ul li a:active{
 	}
 	nav ul li {
 		display: inline-block;
-		margin: auto 11px;
-		letter-spacing: 2px;
-		font-size: .99em;
-	}
-	p {
-		font-size: 8px;
-	}
-	#rodney {
-		height: 60%;
-		width: 70%;
-		display: block;
-		margin-top: 20px;
-	}
-	.ctc{
-		text-align: center;
-		font-family: arial;
-		font-style:: bold;
-		font-size: 7pt;
-		padding: 15	0px 0 0 0;
-	}
-	.rights{
-		text-align: center;
-		font-family: arial;
-		font-weight: lighter;
-		font-size: 7pt;
-		padding: 10px 0 10px 0;
-	}
-}
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	.col{
-		overflow: visible;
-	  margin: 15%;
-	}
-	h1 {
-		font-size: 3.4em;
-	}
-	h2 {
-		padding: 100px 0 0 0;
-		font-weight: 100;
-		font-size: 1em;
-	}
-	nav ul li {
-		display: inline-block;
-		margin: auto 15px;
-		letter-spacing: 2px;
+		margin: auto 4px;
+		letter-spacing: 1px;
 		font-size: .3em;
 	}
 	p {
-		font-size: 8px;
+		font-size: .2em;
 	}
 	#rodney {
 		height: 60%;
