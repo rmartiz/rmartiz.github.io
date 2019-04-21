@@ -69,7 +69,9 @@ p{
 #padding {
 	padding: 40px;
 }
-
+#divider {
+	padding-top: 300px;
+}
 #light1, #light2{
 
   animation: hideshow .2s ease infinite;
