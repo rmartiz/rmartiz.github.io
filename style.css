@@ -2,8 +2,8 @@
 	margin: 0;
 	box-sizing: border-box;
 	border-box: 0;
-	font-family: 'Futura', 'verdana', 'Helvetica', sans-serif;
-  color: #191919;
+	font-family: 'Avenir', 'Verdana', 'Helvetica', sans-serif;
+  color: #282828;
 }
 .row {
 	display: flex;
@@ -26,6 +26,7 @@ h1 {
 	display: inline;
   font-weight: 600;
   font-size: 4.4em;
+	color: #191919;
 }
 h2 {
   padding: 70px 0 0 0;
@@ -35,8 +36,6 @@ h2 {
 p{
 		text-align: left;
 		font-family: arial;
-		font-weight: lighter;
-		font-style: italic;
 		font-size: 11pt;
 		padding: 40px 0 3px 0;
 }
@@ -153,20 +152,7 @@ p{
   100% { opacity: 0; }
 }
 
-/*Work page
-#icons{
-	position: relative;
 
-	width: 96px;
-	height: 96px;
-	margin: 50px 30px 30px 30px;
-}
-#icons{
-	position: relative;
-	width: 96px;
-	height: 96px;
-	margin: 50px 30px 30px 30px;
-}*/
 /*---Media Query----*/
 @media screen and (max-width: 720px) {
 
@@ -182,12 +168,7 @@ p{
 		font-weight: 100;
 		font-size: 1em;
 	}
-	nav ul li {
-		display: inline-block;
-		margin: auto 4px;
-		letter-spacing: 1px;
-		font-size: .3em;
-	}
+
 	p {
 		font-size: .2em;
 	}
