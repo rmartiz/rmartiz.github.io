@@ -42,4 +42,8 @@ header{
 	text-align: justify;
 	font-weight:600;
 }
+img{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 /*----END ABOUT TAB ----*/
